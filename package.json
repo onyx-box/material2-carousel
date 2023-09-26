@@ -1,6 +1,6 @@
 {
-  "name": "material2-carousel",
-  "version": "0.0.0",
+  "name": "@onyx-box/material2-carousel",
+  "version": "0.7.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -24,7 +24,7 @@
     "@angular/router": "~13.0.1",
     "core-js": "^3.6.5",
     "hammerjs": "^2.0.8",
-    "rxjs": "~6.6.0",
+    "rxjs": "~6.6.0 || ^7.4.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
@@ -63,5 +63,27 @@
     "tslib": "^2.0.0",
     "typescript": "~4.4.4",
     "typescript-tslint-plugin": "^0.5.5"
-  }
+  },
+  "description": "[![Build Status](https://travis-ci.org/gabrielbusarello/material2-carousel.svg?branch=master)](https://travis-ci.org/gabrielbusarello/material2-carousel) [![npm version](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel.svg)](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel) [![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://gabrielbusarello.github.io/material2-carousel/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyx-box/material2-carousel.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "carousel",
+    "component",
+    "module"
+  ],
+  "author": "onyx-box",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onyx-box/material2-carousel/issues"
+  },
+  "homepage": "https://github.com/onyx-box/material2-carousel#readme"
 }
